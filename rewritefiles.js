@@ -67,6 +67,5 @@ fs.readFile('node_modules/freeboard/freeboard/js/freeboard.js', 'utf8', function
 });
 
 // Copy the plugins across
-fs.createReadStream('freeboard-widget-rag-files/jquery.sparkline.min.js').pipe(fs.createWriteStream('node_modules/freeboard/freeboard/plugins/thirdparty/jquery.sparkline.min.js'));
-fs.createReadStream('freeboard-widget-rag-files/justgage.1.0.1.js').pipe(fs.createWriteStream('node_modules/freeboard/freeboard/plugins/thirdparty/justgage.1.0.1.js'));
-fs.createReadStream('freeboard-widget-rag-files/raphael.2.1.0.min.js').pipe(fs.createWriteStream('node_modules/freeboard/freeboard/plugins/thirdparty/raphael.2.1.0.min.js'));
+fs.createReadStream('freeboard-widget-rag-files/jquery.keyframes.min.js').pipe(fs.createWriteStream('node_modules/freeboard/freeboard/plugins/thirdparty/jquery.keyframes.min.js'));
+fs.createReadStream('freeboard-widget-rag-files/widget.ragIndicator.js').pipe(fs.createWriteStream('node_modules/freeboard/freeboard/plugins/thirdparty/widget.ragIndicator.js'));
