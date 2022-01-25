@@ -1,7 +1,7 @@
 var fs = require('fs')
 
 var head =
-    'head.js("js/freeboard.js","js/freeboard.plugins.min.js", "../freeboard_api/datasources",\n' +
+    'head.js("js/freeboard.js","js/freeboard.plugins.min.js", "../freeboard_api/datasources", "plugins/thirdparty/jquery.keyframes.min.js", "plugins/thirdparty/widget.ragIndicator.js",\n' +
     'function(){' +
     '                  $(function()\n' +
     '                  { //DOM Ready\n' +
