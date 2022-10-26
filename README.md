@@ -1,9 +1,15 @@
-#Freeboard Dashboard for Node-RED
+# Freeboard Dashboard for Node-RED on Heroku
 
-#Installation
-Just install this plugin to your Node Red installation by using npm: "npm install node-red-contrib-freeboard" in your Node Red root directory
+This is a fork of the Freeboard Dashboard for Node-Red specifically to use on Heroku 
 
-#Usage
+# Installation
+Just install this plugin to your Node Red installation by using npm: "npm install ksonney/node-red-contrib-freeboard" in your Node Red root directory, or by adding the following to the `dependencies` section of package.json: 
+
+```
+        "node-red-contrib-freeboard": "ksonney/node-red-contrib-freeboard",
+```
+
+# Usage
 Drag the freeboard node into your workspace and connect it appropriatley with some JSON emitting node.
 ![Node RED Flow](./docs/node_red_flow.png)
 ```
@@ -27,5 +33,5 @@ Thats it, here is your widget:
 
 Don't forget to save your dashboard by hitting "SAVE FREEBOARD" (then "[MINIFIED]") on the top left.
 
-#Contributions
+# Contributions
 Thanks to reyiyo and adamfr33man for their contributions to this project!
