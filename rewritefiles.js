@@ -1,4 +1,9 @@
 var fs = require('fs')
+const execSync = require('child_process').execSync;
+const cmdLine = 'pwd'
+const output = execSync(cmdLine)
+console.log(output)
+
 
 var head =
     'head.js("js/freeboard.js","js/freeboard.plugins.min.js", "../freeboard_api/datasources", "plugins/thirdparty/jquery.keyframes.min.js", "plugins/thirdparty/widget.ragIndicator.js",\n' +
